@@ -1,0 +1,315 @@
+/* top_header_social_media_icon */
+#icon li a span{
+	padding:3px;
+	width:30px;
+	height:30px;
+	display:block;
+	background:#fff;
+	border-radius:100%;
+	text-align:center;
+}
+/* top_header_social_media_icon_End */
+/* Log */
+#logo{
+	font-size: 45px;
+	font-family: 'Anton', sans-serif;
+	background: -webkit-linear-gradient(#6600ff 0%, #ff99cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* end-logo */
+/* start_banner */
+#banner div img{
+	border-radius:0px 0px 35% 70%;
+	border-bottom:15px solid pink;
+}
+/* end_banner */
+/* In-start-banner-text */
+#banner div .carousel-caption{
+	margin-left:20%;
+}
+#banner div .carousel-caption h5{
+	margin-top:-60%;
+	text-align:left;
+	font-size:45px;
+	font-family: 'Anton', sans-serif;
+}
+#banner div .carousel-caption p{
+	width:90%;
+}
+#banner div .carousel-caption button{
+		background:linear-gradient(#6600ff 0%, #ff99cc);
+	}
+/* end-banner-text */
+/* start-Location & form section */
+.info{
+	margin-left:120px;
+	margin-top:30px;
+}
+.info span{
+	width:80px;
+	height:80px;
+	border:1px solid #fff;
+	display:block;
+	padding:18px 26px;
+	float:left;
+	border-radius:100%;
+	color:#fff;
+	font-size:30px;
+	margin-right:20px;
+}
+.info .text{
+	color:#fff;
+}
+/* end-Location & form section */
+.title{
+font-size:18px;	
+font-family: 'Anton', sans-serif;
+	background: -webkit-linear-gradient(#6600ff 0%, #ff99cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.card .card-header span{
+	background:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+/* footer-section */
+.footer-title{
+	font-size:100px;
+	font-weight:bold;
+		background: -webkit-linear-gradient(#6600ff 0%, #ff99cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#icon-nav{
+	margin-left:40px;
+}
+/* end footer-section */
+@media screen and (max-width: 765px){
+	.navbar-nav .nav-item .nav-link{
+		font-size:12px;
+	}
+	#icon li a span{
+	font-size:10px;
+	padding:0;
+	width:15px;
+	height:15px;
+	}
+	#logo{
+		font-size:20px;
+	}
+	#banner div .carousel-caption h5{
+	margin-top:-50%;
+	text-align:left;
+	font-size:20px;
+	font-family: 'Anton', sans-serif;
+	}
+	#banner div .carousel-caption p{
+		font-size:12px;
+	}
+	#banner div .carousel-caption button{
+		font-size:10px;
+	}
+	.card{
+		width:50%;
+		margin:0 auto;	
+	}
+	.card img{
+		width:100%;	
+	}
+	.card-body .card-title{
+		font-size:14px;
+	}
+	.card-body .card-text{
+		font-size:14px;
+	}
+	.card-body .card-link{
+		font-size:14px;
+	}
+	#hug{
+	text-align:center;	
+	}
+	#hug img{
+	width:50%;
+	}
+	#hug_text{
+	padding:40px;
+	}
+	#hug_text h3{
+		font-size:16px;	
+	}
+	#hug_text p{
+		font-size:10px;	
+	}
+	#hug_text button{
+		font-size:10px;
+	}
+	#news-slider .post-slide .post-img{
+		border:8px solid silver;
+		width:60%;
+		margin:0 auto;
+	}
+	#news-slider .post-slide .post-img img{
+		width:100%;
+	}
+.info{
+	margin-left:40px;
+	margin-top:10px;
+}
+.info span{
+	width:50px;
+	height:50px;
+	padding:10px 15px;
+	font-size:18px;
+}
+.info .text h3{
+	font-size:14px;
+}
+.info .text p{
+	font-size:10px;
+}
+input[type="text"],input[type="password"]{
+	height:30px;
+	font-size:10px;
+}
+#area{
+	font-size:10px;
+}
+.btn{
+	font-size:10px;
+}
+.title{
+font-size:18px;	
+}
+.card .card-header{
+	height:40px;
+}
+.card .card-body{
+	font-size:10px;
+}
+.footer-title{
+	font-size:60px;
+}
+}
+@media only screen and (min-width: 760px){
+	#banner div .carousel-caption h5{
+	font-size:30px;
+	}
+	#banner div .carousel-caption p{
+		font-size:16px;
+	}
+	#banner div .carousel-caption button{
+		font-size:14px;
+	}
+	.card{
+		width:100%;
+		margin:0 auto;	
+	}
+	.card img{
+		width:100%;	
+	}	
+	#hug_text{
+	padding:50px 0px;
+	}
+	#hug_text h3{
+		font-size:25px;	
+	}
+	#hug_text p{
+		font-size:14px;	
+	}
+	#hug_text button{
+		font-size:12px;
+	}
+	#news-slider .post-slide .post-img{
+		border:8px solid silver;
+		width:90%;
+		text-align:center;
+		margin:0px 20px;
+		
+	}
+	#news-slider .post-slide .post-img img{
+		width:100%;
+	}
+	.info{
+	margin-left:40px;
+	margin-top:0px;
+}
+.info span{
+	width:50px;
+	height:50px;
+	padding:10px 15px;
+	font-size:18px;
+}
+.info .text h3{
+	font-size:16px;
+}
+.info .text p{
+	font-size:12px;
+}
+input[type="text"],input[type="password"]{
+	height:30px;
+	font-size:10px;
+}
+#area{
+	font-size:10px;
+}
+.btn{
+	font-size:10px;
+}
+.title{
+font-size:18px;	
+}
+#question .card{
+	width:600px;
+}
+.footer-title{
+	font-size:70px;
+}
+}
+@media only screen and (min-width: 1000px){
+	#hug_text h3{
+		font-size:30px;	
+	}
+   #hug_text{
+	padding-top:70px;
+	}
+	#hug_text p{
+		font-size:18px;
+		line-height:30px;
+	}
+	#hug_text button{
+		font-size:16px;
+	}
+	.info{
+	margin-top:40px;
+}
+.info span{
+	width:80px;
+	height:80px;
+	padding:18px 28px;
+	font-size:30px;
+}
+.info .text h3{
+	font-size:25px;
+}
+.info .text p{
+	font-size:16px;
+}
+input[type="text"],input[type="password"]{
+	height:40px;
+	font-size:16px;
+}
+#area{
+	font-size:16px;
+}
+.btn{
+	font-size:14px;
+}
+.title{
+font-size:30px;	
+}
+}
+@media only screen and (min-width: 1300px){
+      
+}
